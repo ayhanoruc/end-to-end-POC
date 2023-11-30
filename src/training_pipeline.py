@@ -141,8 +141,10 @@ class TrainingPipeline:
         self.load_data(data_file_path)
         self.preprocess()
         self.train()
+        #return rmse score
+        score = self.model.score(self.x_val, self.y_val)
         print("SUCCESFULL")
-
+        return score
 
 if __name__ == "__main__":
     pipeline = TrainingPipeline()

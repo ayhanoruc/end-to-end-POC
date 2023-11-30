@@ -2,10 +2,9 @@ scikit-learn
 pandas
 numpy
 matplotlib
-seaborn
-statsmodels
-scipy
 xgboost
-lightgbm
 catboost
-jupyter
+fastapi
+uvicorn
+python-multipart         
+PyYAML

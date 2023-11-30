@@ -1,0 +1,10 @@
+build/
+dist/
+venv/
+*cache*
+*.ipynb_checkpoints
+*egg-info*
+.gitignore
+README.md
+create.py
+tests/
