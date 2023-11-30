@@ -1,0 +1,18 @@
+.env
+venv/
+
+# Python
+*.pyc
+*.pyo
+*.egg-info*
+*.egg
+*cache*
+
+# Logs
+*.log
+
+tests/
+
+#packaging
+build/
+dist/

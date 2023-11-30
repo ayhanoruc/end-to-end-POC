@@ -1,0 +1,24 @@
+# pipeline constants
+
+Data:
+  data_file_path: C:\Users\ayhan\Desktop\cloud-POC\data\california_housing.csv
+  prediction_file_path : C:\Users\ayhan\Desktop\cloud-POC\data\prediction_file
+
+Training_Pipeline:
+  artifact_path: C:\Users\ayhan\Desktop\cloud-POC\artifacts
+  model_path : C:\Users\ayhan\Desktop\cloud-POC\artifacts\models
+  model_name : xgboost_regressor.json
+  model_hyperparameters :
+    n_estimators: 100
+    max_depth: 3
+    learning_rate: 0.1
+    eval_metric: rmse
+  training_history_figure_path : C:\Users\ayhan\Desktop\cloud-POC\artifacts\figures
+  preprocessor_obj_path : C:\Users\ayhan\Desktop\cloud-POC\artifacts\preprocessor
+  preprocessor_name : preprocessor.pkl
+
+  Prediction_Pipeline:
+    
+
+
+
